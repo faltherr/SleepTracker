@@ -6,7 +6,9 @@
     <template v-slot:content>
       <div class="dashboard-container">
         <div class="chart-container">A Chart</div>
-        <div class="button-container">A Big Button to Enter Data</div>
+        <div class="button-container">
+          <router-link to="/edit">Click to Enter Data</router-link>
+        </div>
         <div class="summary-container">A Summary Element</div>
       </div>
     </template>
@@ -23,6 +25,8 @@ export default {
     MainContentView
   },
 
+  props: ["sleepEntries"],
+
   data() {
     return {};
   },
@@ -37,21 +41,24 @@ export default {
 .dashboard-container {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  /* grid-template-rows: 1fr 1fr; */
+  grid-gap: 10px;
   grid-template-areas:
     "chart edit"
     "chart summary";
+  height: 100%;
 }
-.chart-container{
-    grid-area: chart;
-    background: blue;
+.chart-container {
+  background: blue;
+  grid-area: chart;
 }
-.button-container{
-    grid-area: edit;
-    background: grey;
+.button-container {
+  background: rgb(34, 34, 34);
+  color: #fff;
+  grid-area: edit;
 }
-.summary-container{
-    grid-area: summary;
-    background: orange;
+.summary-container {
+  background: rgb(34, 34, 34);
+  color: #fff;
+  grid-area: summary;
 }
 </style>

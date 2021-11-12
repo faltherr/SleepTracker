@@ -12,25 +12,22 @@
 <script>
 export default {
   name: "MainContentview",
-
-  data() {
-    return {};
-  }
 };
 </script>
 
 <style scoped>
-main{
-    width: 100%;
-    min-height: 100;
+.content-container {
+  padding: 25px;
+  height: 78vh;
 }
-.title-container{
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
+main {
+  width: 100%;
+  min-height: 74%;
 }
-.content-container{
-    padding: 25px;
+.title-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
 }
 </style>
