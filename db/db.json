@@ -1,8 +1,8 @@
 {
     "sleepEntries": [
-      { "id": 1, "week": 1, "date": "11/8/2021", "firstBed": "23:10", "minToSleep": 30, "awakeCount": 1, "awakeMinutes": 5, "wakeUpTime": "06:00", "exitBed": "07:15", "sleepQuality": "poor", "enoughSleep": 0, "refreshedRating": 1, "sleepy": 4, "sleepFactor": ["Late work"] },
-      { "id": 2, "week": 1, "date": "11/9/2021", "firstBed": "00:05", "minToSleep": 30, "awakeCount": 1, "awakeMinutes": 20, "wakeUpTime": "07:00", "exitBed": "08:30", "sleepQuality": "poor", "enoughSleep": 0, "refreshedRating": 1, "sleepy": 3, "sleepFactor": ["Late work"] },
-      { "id": 3, "week": 1, "date": "11/10/2021", "firstBed": "22:00", "minToSleep": 30, "awakeCount": 0, "awakeMinutes": 0, "wakeUpTime": "05:00", "exitBed": "05:30", "sleepQuality": "good", "enoughSleep": 1, "refreshedRating": 2, "sleepy": 2, "sleepFactor": ["Meditation", "Tea"] }
+      { "id": 1, "week": 1, "date": "2021/11/08", "firstBed": "23:10", "minToSleep": 30, "awakeCount": 1, "awakeMinutes": 5, "wakeUpTime": "06:00", "exitBed": "07:15", "sleepQuality": "poor", "enoughSleep": 0, "refreshedRating": 1, "sleepy": 4, "sleepFactor": ["Late work"] },
+      { "id": 2, "week": 1, "date": "2021/11/09", "firstBed": "00:05", "minToSleep": 30, "awakeCount": 1, "awakeMinutes": 20, "wakeUpTime": "07:00", "exitBed": "08:30", "sleepQuality": "poor", "enoughSleep": 0, "refreshedRating": 1, "sleepy": 3, "sleepFactor": ["Late work"] },
+      { "id": 3, "week": 1, "date": "2021/11/10", "firstBed": "22:00", "minToSleep": 30, "awakeCount": 0, "awakeMinutes": 0, "wakeUpTime": "05:00", "exitBed": "05:30", "sleepQuality": "good", "enoughSleep": 1, "refreshedRating": 2, "sleepy": 2, "sleepFactor": ["Meditation", "Tea"] }
     ],
     "sleepFactors": ["Tea", "Late Caffeine", "Late Work"],
     "profile": { "name": "Doug" }
